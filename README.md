@@ -1,4 +1,4 @@
-# Samamiraa-Portfolio
+# Portfolio
 
 Live URL 👇🏼<br>
 
@@ -36,7 +36,11 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
-https://mui.com/material-ui/react-breadcrumbs/<br>
+List your collaborators, if any, with links to their GitHub profiles.
+
+If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+
+If you followed tutorials, include links to those here as well.
 
 ## License
 
@@ -62,4 +66,4 @@ If you created an application or package and would like other developers to cont
 
 ## Tests
 
-Go the extra mile and write tests for your application. 
+Go the extra mile and write tests for your application. Then provide examples on how to run them here.
