@@ -28,11 +28,11 @@ function Nav(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
+      <Typography variant="h6" sx={{ my: 2, color: '#90caf9'  }}>
         SAMAMIRAA
       </Typography>
       <Divider />
-      <List>
+      <List sx={{ color: '#90caf9'  }}>
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }}>
@@ -63,13 +63,13 @@ function Nav(props) {
           <Typography
             variant="h6"
             component="div"
-            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' }, color: '#157145'  }}
+            sx={{ flexGrow: 1,  display: { xs: 'none', sm: 'block' }, color: '#90caf9'}}
           >
            SAMAMIRAA
           </Typography>
-          <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+          <Box sx={{ display: { xs: 'none', sm: 'block' }}}>
             {navItems.map((item) => (
-              <Button key={item} sx={{ color: '#157145' }}>
+              <Button key={item}>
                 {item}
               </Button>
             ))}
