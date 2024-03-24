@@ -29,7 +29,7 @@ function Nav(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 2, color: '#90caf9'  }}>
-        SAMAMIRAA
+        SAMANTHA ALLEN
       </Typography>
       <Divider />
       <List sx={{ color: '#90caf9'  }}>
@@ -65,7 +65,7 @@ function Nav(props) {
             component="div"
             sx={{ flexGrow: 1,  display: { xs: 'none', sm: 'block' }, color: '#90caf9'}}
           >
-           SAMAMIRAA
+           SAMANTHA ALLEN
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' }}}>
             {navItems.map((item) => (
