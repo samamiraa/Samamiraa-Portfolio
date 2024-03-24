@@ -14,13 +14,11 @@ function App() {
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-      return (
         <div>
           <Header />
           <Outlet />
           <Footer />
         </div>
-      )
     </ThemeProvider>
   );
 }

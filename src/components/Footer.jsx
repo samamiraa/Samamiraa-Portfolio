@@ -23,9 +23,9 @@ function Footer() {
                         setValue(newValue);
                     }}
                 >
-                    <BottomNavigationAction icon={<LinkedInIcon />} />
-                    <BottomNavigationAction icon={<GitHubIcon />} />
-                    <BottomNavigationAction icon={<XIcon />} />
+                    <a href='https://www.linkedin.com'><BottomNavigationAction icon={<LinkedInIcon />} /></a>
+                    <a href='https://www.github.com'><BottomNavigationAction icon={<GitHubIcon />} /></a>
+                    <a href='https://www.twitter.com'><BottomNavigationAction icon={<XIcon />} /></a>
                 </BottomNavigation>
             </Paper>
         </Box>

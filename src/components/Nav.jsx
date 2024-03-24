@@ -18,7 +18,7 @@ import { Link, useLocation } from 'react-router-dom';
 
 const drawerWidth = 240;
 const navItems = [
-  { text: 'About', to: '/' },
+  { text: 'About', to: '/about' },
   { text: 'Portfolio', to: '/portfolio' },
   { text: 'Contact', to: '/contact' },
   { text: 'Resume', to: '/resume' }
@@ -27,6 +27,7 @@ const navItems = [
 function Nav(props) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
+  const { pathname } = useLocation();
 
   const handleDrawerToggle = () => {
     setMobileOpen((prevState) => !prevState);
@@ -41,7 +42,7 @@ function Nav(props) {
       <List sx={{ color: '#90caf9'  }}>
         {navItems.map((item) => (
           <ListItem key={item.text} disablePadding>
-            <ListItemButton component={Link} to={item.to} sx={{ textAlign: 'center' }}>
+            <ListItemButton component={Link} to={item.to} sx={{ textAlign: 'center' }} selected={pathname === item.to}>
               <ListItemText primary={item.text} />
             </ListItemButton>
           </ListItem>
@@ -75,7 +76,7 @@ function Nav(props) {
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' }}}>
             {navItems.map((item) => (
-              <Button key={item.text} component={Link} to={item.to}>
+              <Button key={item.text} component={Link} to={item.to} variant={pathname === item.to  ? 'outlined' : 'text'}>
                 {item.text}
               </Button>
             ))}
