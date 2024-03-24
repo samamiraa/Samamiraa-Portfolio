@@ -1,8 +1,8 @@
 import Header from './components/Header';
-import Display from './components/Display';
 import Footer from './components/Footer';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
+import { Outlet } from 'react-router-dom';
 
 const darkTheme = createTheme({
   palette: {
@@ -17,7 +17,7 @@ function App() {
       return (
         <div>
           <Header />
-          <Display />
+          <Outlet />
           <Footer />
         </div>
       )
