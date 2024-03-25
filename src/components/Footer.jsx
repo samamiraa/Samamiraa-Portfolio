@@ -7,6 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import XIcon from '@mui/icons-material/X';
 import Paper from '@mui/material/Paper';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     const [value, setValue] = React.useState(0);
@@ -23,9 +24,9 @@ function Footer() {
                         setValue(newValue);
                     }}
                 >
-                    <a href='https://www.linkedin.com'><BottomNavigationAction icon={<LinkedInIcon />} /></a>
-                    <a href='https://www.github.com'><BottomNavigationAction icon={<GitHubIcon />} /></a>
-                    <a href='https://www.twitter.com'><BottomNavigationAction icon={<XIcon />} /></a>
+                    <Link to='https://www.linkedin.com/in/samantha-allen-51199b96/'><BottomNavigationAction icon={<LinkedInIcon />} /></Link>
+                    <Link to='https://github.com/samamiraa'><BottomNavigationAction icon={<GitHubIcon />} /></Link>
+                    <Link to='https://twitter.com/samiraa0813'><BottomNavigationAction icon={<XIcon />} /></Link>
                 </BottomNavigation>
             </Paper>
         </Box>
