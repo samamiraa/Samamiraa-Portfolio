@@ -1,5 +1,12 @@
 body {
-    background-color: #D1FAFF;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
+#root,
+.appJsx,
+.aboutJsx {
+    height: 100%;
+}
 

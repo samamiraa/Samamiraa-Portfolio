@@ -3,6 +3,7 @@ import Footer from './components/Footer';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { Outlet } from 'react-router-dom';
+import './styles/Main.css'
 
 const darkTheme = createTheme({
   palette: {
@@ -14,7 +15,7 @@ function App() {
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-        <div>
+        <div className='appJsx'>
           <Header />
           <Outlet />
           <Footer />
