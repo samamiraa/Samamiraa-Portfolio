@@ -1,0 +1,130 @@
+[
+    {
+        "id": "1",
+        "title": "Text Editor",
+        "img": "",
+        "description": "Text Editor that uses webpack, service workers and manifest. This project included starter code, the main goals were to inject manifest, import the custom service worker and bundle with webpack.",
+        "github": "https://github.com/samamiraa/Text-Editor",
+        "url": "https://text-editor-8vbu.onrender.com/"
+    },
+    {
+        "id": "2",
+        "title": "Social Network API",
+        "img": "",
+        "description": "Backend only socal networking app made with express, mongoDB and mongoose. This projects goals were to successfully connect to the mongoDB, use mongoose for CRUD and manipulate data with insomnia.",
+        "github": "https://github.com/samamiraa/Social-Network-API",
+        "url": "https://drive.google.com/file/d/1s1A9CBL98nOxLh_a3OUPo8zHfgy6XO6y/view"
+    },
+    {
+        "id": "3",
+        "title": "Fitness Tracker",
+        "img": "",
+        "description": "A full-stack fitness tracker app using Node, Express, MySQL, Sequelize and EJS to store, retrieve, edit and delete workouts in a mySQL database following ORM and MVC architecture.",
+        "github": "https://github.com/samamiraa/fitness-tracker-mvc",
+        "url": "https://safe-sands-18843-bafb39dce4aa.herokuapp.com/"
+    },
+    {
+        "id": "4",
+        "title": "Tech Blog",
+        "img": "",
+        "description": "A full stack application that uses HTML, CSS, Javascript, Node.js, Express.js, Sequelize, MySQL and handlebars to store, retrieve, edit and delete blogposts in a mySQL database following ORM and MVC architecture. ",
+        "github": "https://github.com/samamiraa/Tech-Blog",
+        "url": "https://still-meadow-91775-8d8ca5e83b0c.herokuapp.com/"
+    },
+    {
+        "id": "5",
+        "title": "E-Commerce Backend",
+        "img": "",
+        "description": "Backend only e-commerce backend app made with express, mySQL and sequalize. This projects goals were to successfully connect to the mySQL database, use sequalize for CRUD and manipulate data with insomnia.",
+        "github": "https://github.com/samamiraa/E-Commerce-Back-End",
+        "url": "https://drive.google.com/file/d/1TTaz38ocVsdG9P2cICK7rMre0T0ETq33/view/"
+    },
+    {
+        "id": "",
+        "title": "",
+        "img": "",
+        "description": "",
+        "github": "",
+        "url": ""
+    },
+    {
+        "id": "",
+        "title": "",
+        "img": "",
+        "description": "",
+        "github": "",
+        "url": ""
+    },
+    {
+        "id": "",
+        "title": "",
+        "img": "",
+        "description": "",
+        "github": "",
+        "url": ""
+    },
+    {
+        "id": "",
+        "title": "",
+        "img": "",
+        "description": "",
+        "github": "",
+        "url": ""
+    },
+    {
+        "id": "",
+        "title": "",
+        "img": "",
+        "description": "",
+        "github": "",
+        "url": ""
+    },
+    {
+        "id": "",
+        "title": "",
+        "img": "",
+        "description": "",
+        "github": "",
+        "url": ""
+    },
+    {
+        "id": "",
+        "title": "",
+        "img": "",
+        "description": "",
+        "github": "",
+        "url": ""
+    },
+    {
+        "id": "",
+        "title": "",
+        "img": "",
+        "description": "",
+        "github": "",
+        "url": ""
+    },
+    {
+        "id": "",
+        "title": "",
+        "img": "",
+        "description": "",
+        "github": "",
+        "url": ""
+    },
+    {
+        "id": "",
+        "title": "",
+        "img": "",
+        "description": "",
+        "github": "",
+        "url": ""
+    },
+    {
+        "id": "",
+        "title": "",
+        "img": "",
+        "description": "",
+        "github": "",
+        "url": ""
+    }
+]

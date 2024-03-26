@@ -10,3 +10,10 @@ body {
     height: 100%;
 }
 
+.marginTop {
+    margin-top: 100px;
+}
+
+.marginTopFooter {
+    margin-top: 800px;
+}

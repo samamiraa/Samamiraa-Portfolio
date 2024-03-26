@@ -25,11 +25,11 @@ function About() {
                     sx={{ width: 150, height: 150 }}
                 />
 
-                <Box sx={{ width: '100%', maxWidth: 500, marginLeft: '35px', marginTop: '25px' }}>
+                <Box sx={{ width: '100%', maxWidth: 500, marginLeft: '35px', marginTop: '25px', color: 'text.secondary' }}>
                     <Typography variant="h5" gutterBottom>
                       Full Stack Web Developer
                     </Typography>
-                    <Typography variant="paragraph" gutterBottom>
+                    <Typography variant="body1" align='justify' gutterBottom>
                     An emerging full-stack web developer passionate about crafting engaging 
                     digital experiences. With a foundation in HTML, CSS, and JavaScript, 
                     I am eager to delve deeper into front-end frameworks like React and 
