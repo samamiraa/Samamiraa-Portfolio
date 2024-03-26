@@ -27,7 +27,7 @@ function Portfolio() {
                     </CardContent>
                     <CardActions sx={{ justifyContent: 'center' }}>
                         <Link to={project.github}><Button size="small">Github Repo</Button></Link>
-                        <Link to={project.url}><Button size="small">URL</Button></Link>
+                        <Link to={project.url}><Button size="small">URL / Demo</Button></Link>
                     </CardActions>
                 </Card>
             ))}
