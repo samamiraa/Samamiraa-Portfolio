@@ -14,7 +14,7 @@ function Footer() {
     const ref = React.useRef(null);
 
     return (
-        <div className='marginTopFooter'>
+        <footer className='marginTopFooter'>
             <Box sx={{ pb: 7 }} ref={ref}>
                 <CssBaseline />
                 <Paper sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }} elevation={3}>
@@ -36,7 +36,7 @@ function Footer() {
                     </BottomNavigation>
                 </Paper>
             </Box>
-        </div>
+        </footer>
     );
 }
 
