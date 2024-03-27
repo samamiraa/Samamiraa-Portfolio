@@ -24,6 +24,11 @@ body {
     flex-grow: 1;
 }
 
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .marginTop {
     margin-top: 100px;

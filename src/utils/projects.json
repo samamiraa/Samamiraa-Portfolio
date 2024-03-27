@@ -9,7 +9,7 @@
     },
     {
         "id": "2",
-        "title": "Social Network API",
+        "title": "Social Network",
         "img": "",
         "description": "Backend only socal networking app made with express, mongoDB and mongoose. This projects goals were to successfully connect to the mongoDB, use mongoose for CRUD and manipulate data with insomnia.",
         "github": "https://github.com/samamiraa/Social-Network-API",
@@ -33,7 +33,7 @@
     },
     {
         "id": "5",
-        "title": "E-Commerce Backend",
+        "title": "E-Commerce",
         "img": "",
         "description": "Backend only e-commerce backend app made with express, mySQL and sequalize. This projects goals were to successfully connect to the mySQL database, use sequalize for CRUD and manipulate data with insomnia.",
         "github": "https://github.com/samamiraa/E-Commerce-Back-End",
