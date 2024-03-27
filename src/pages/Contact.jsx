@@ -7,16 +7,35 @@ import Alert from '@mui/material/Alert';
 import { useState } from 'react';
 
 export default function Contact() {
-    const [value, setValue] = useState('');
+    const [name, setName] = useState('');
     const [emailError, setEmailError] = useState('');
     const [email, setEmail] = useState('');
-    const [showAlert, setShowAlert] = useState(false);
+    const [message, setMessage] = useState('');
+    const [showAlertName, setShowAlertName] = useState(false);
+    const [showAlertEmail, setShowAlertEmail] = useState(false);
+    const [showAlertMessage, setShowAlertMessage] = useState(false);
 
-    const handleEmptyInput = (value) => {
+    const handleEmptyName = (value) => {
         if (!value.trim()) {
-            setShowAlert(true);
+            setShowAlertName(true);
         } else {
-            setShowAlert(false);
+            setShowAlertName(false);
+        }
+    }
+
+    const handleEmptyEmail = (value) => {
+        if (!value.trim()) {
+            setShowAlertEmail(true);
+        } else {
+            setShowAlertEmail(false);
+        }
+    }
+
+    const handleEmptyMessage = (value) => {
+        if (!value.trim()) {
+            setShowAlertMessage(true);
+        } else {
+            setShowAlertMessage(false);
         }
     }
 
@@ -45,9 +64,9 @@ export default function Contact() {
                 <Typography variant='h5' sx={{ color: '#90caf9' }} align='center'>
                     Want to connect?
                 </Typography>
-                 {showAlert && (
+                 {showAlertName && (
                     <Alert variant="outlined" severity="info">
-                        Field is required
+                        Name is required
                     </Alert>
                 )}
                 <TextField
@@ -56,10 +75,15 @@ export default function Contact() {
                     multiline
                     maxRows={4}
                     required
-                    value={value}
-                    onChange={(event) => setValue(event.target.value)}
-                    onMouseOut={() => handleEmptyInput(value)}
+                    value={name}
+                    onChange={(event) => setName(event.target.value)}
+                    onMouseOut={() => handleEmptyName(name)}
                 />
+                {showAlertEmail && (
+                    <Alert variant="outlined" severity="info">
+                        Email is required
+                    </Alert>
+                )}
                 <TextField
                     id="outlined-textarea"
                     label="Email"
@@ -67,19 +91,24 @@ export default function Contact() {
                     required
                     value={email}
                     onChange={handleEmailValidation}
-                    onMouseOut={() => handleEmptyInput(value)}
+                    onMouseOut={() => handleEmptyEmail(email)}
                     error={emailError}
                     helperText={emailError ? 'Invalid Email' : '' }
                 />
+                 {showAlertMessage && (
+                    <Alert variant="outlined" severity="info">
+                        Message is required
+                    </Alert>
+                )}
                 <TextField
                     id="outlined-multiline-static"
                     label="Message"
                     multiline
                     rows={4}
                     required
-                    value={value}
-                    onChange={(event) => setValue(event.target.value)}
-                    onMouseOut={() => handleEmptyInput(value)}
+                    value={message}
+                    onChange={(event) => setMessage(event.target.value)}
+                    onMouseOut={() => handleEmptyMessage(message)}
                 />
                 <Button sx={{ marginLeft: '135px' }} variant='outlined'>Submit</Button>
             </div>
