@@ -8,6 +8,8 @@ import { useState } from 'react';
 
 export default function Contact() {
     const [value, setValue] = useState('');
+    const [emailError, setEmailError] = useState('');
+    const [email, setEmail] = useState('');
     const [showAlert, setShowAlert] = useState(false);
 
     const handleEmptyInput = (value) => {
@@ -16,6 +18,17 @@ export default function Contact() {
         } else {
             setShowAlert(false);
         }
+    }
+
+    const emailValidation = (email) => {
+        const emailRegEx = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegEx.test(email);
+    }
+
+    const handleEmailValidation = (event) => {
+        const emailVal = event.target.value;
+        setEmail(emailVal);
+        setEmailError(!emailValidation(emailVal));
     }
 
     return (
@@ -29,14 +42,14 @@ export default function Contact() {
             autoComplete="off"
         >
             <div className='contactForm'>
-                {showAlert && (
-                    <Alert variant="outlined" severity="info">
-                        Input fields cannot be empty.
-                    </Alert>
-                )}
-                <Typography variant='h5' sx={{ color: '#90caf9', marginTop: '20px' }} align='center'>
+                <Typography variant='h5' sx={{ color: '#90caf9' }} align='center'>
                     Want to connect?
                 </Typography>
+                 {showAlert && (
+                    <Alert variant="outlined" severity="info">
+                        Field is required
+                    </Alert>
+                )}
                 <TextField
                     id="outlined-multiline-flexible"
                     label="Name"
@@ -52,9 +65,11 @@ export default function Contact() {
                     label="Email"
                     multiline
                     required
-                    value={value}
-                    onChange={(event) => setValue(event.target.value)}
+                    value={email}
+                    onChange={handleEmailValidation}
                     onMouseOut={() => handleEmptyInput(value)}
+                    error={emailError}
+                    helperText={emailError ? 'Invalid Email' : '' }
                 />
                 <TextField
                     id="outlined-multiline-static"

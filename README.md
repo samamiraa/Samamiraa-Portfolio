@@ -37,6 +37,8 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 ## Credits
 
 https://www.youtube.com/watch?v=Xoz31I1FuiY<br>
+https://dev.to/parthgupta118/mouse-events-onmouseout-and-onmouseleave-in-react-1fpd<br>
+https://www.w3schools.com/jsref/jsref_regexp_test.asp<br>
 
 ## License
 
