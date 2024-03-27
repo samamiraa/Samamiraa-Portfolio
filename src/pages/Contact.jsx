@@ -7,7 +7,7 @@ import Alert from '@mui/material/Alert';
 import { useState } from 'react';
 
 export default function Contact() {
-    const [name, setName] = useState('');
+    const [value, setValue] = useState('');
     const [showAlert, setShowAlert] = useState(false);
 
     const handleEmptyInput = (value) => {
@@ -43,15 +43,18 @@ export default function Contact() {
                     multiline
                     maxRows={4}
                     required
-                    value={name}
-                    onChange={(event) => setName(event.target.value)}
-                    onMouseOut={() => handleEmptyInput(name)}
+                    value={value}
+                    onChange={(event) => setValue(event.target.value)}
+                    onMouseOut={() => handleEmptyInput(value)}
                 />
                 <TextField
                     id="outlined-textarea"
                     label="Email"
                     multiline
                     required
+                    value={value}
+                    onChange={(event) => setValue(event.target.value)}
+                    onMouseOut={() => handleEmptyInput(value)}
                 />
                 <TextField
                     id="outlined-multiline-static"
@@ -59,6 +62,9 @@ export default function Contact() {
                     multiline
                     rows={4}
                     required
+                    value={value}
+                    onChange={(event) => setValue(event.target.value)}
+                    onMouseOut={() => handleEmptyInput(value)}
                 />
                 <Button sx={{ marginLeft: '135px' }} variant='outlined'>Submit</Button>
             </div>
