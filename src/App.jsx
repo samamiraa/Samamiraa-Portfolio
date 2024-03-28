@@ -3,7 +3,7 @@ import Footer from './components/Footer';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { Outlet } from 'react-router-dom';
-import './styles/Main.css'
+import '../public/styles/Main.css'
 
 const darkTheme = createTheme({
   palette: {

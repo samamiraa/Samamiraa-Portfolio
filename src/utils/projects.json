@@ -2,7 +2,7 @@
     {
         "id": "1",
         "title": "Text Editor",
-        "img": "",
+        "img": "/public/img/texteditor.png",
         "description": "Text Editor that uses webpack, service workers and manifest. This project included starter code, the main goals were to inject manifest, import the custom service worker and bundle with webpack.",
         "github": "https://github.com/samamiraa/Text-Editor",
         "url": "https://text-editor-8vbu.onrender.com/"
@@ -10,7 +10,7 @@
     {
         "id": "2",
         "title": "Social Network",
-        "img": "",
+        "img": "/public/img/socialAPI.png",
         "description": "Backend only socal networking app made with express, mongoDB and mongoose. This projects goals were to successfully connect to the mongoDB, use mongoose for CRUD and manipulate data with insomnia.",
         "github": "https://github.com/samamiraa/Social-Network-API",
         "url": "https://drive.google.com/file/d/1s1A9CBL98nOxLh_a3OUPo8zHfgy6XO6y/view"
@@ -18,7 +18,7 @@
     {
         "id": "3",
         "title": "Fitness Tracker",
-        "img": "",
+        "img": "/public/img/simplyfitfitness.png",
         "description": "A full-stack collaborative fitness tracker app using Node, Express, MySQL, Sequelize and EJS to store, retrieve, edit and delete workouts in a mySQL database following ORM and MVC architecture.",
         "github": "https://github.com/samamiraa/fitness-tracker-mvc",
         "url": "https://safe-sands-18843-bafb39dce4aa.herokuapp.com/"
@@ -26,7 +26,7 @@
     {
         "id": "4",
         "title": "Tech Blog",
-        "img": "",
+        "img": "/public/img/techblog.png",
         "description": "A full stack application that uses HTML, CSS, Javascript, Node.js, Express.js, Sequelize, MySQL and handlebars to store, retrieve, edit and delete blogposts in a mySQL database following ORM and MVC architecture. ",
         "github": "https://github.com/samamiraa/Tech-Blog",
         "url": "https://still-meadow-91775-8d8ca5e83b0c.herokuapp.com/"
@@ -34,7 +34,7 @@
     {
         "id": "5",
         "title": "E-Commerce",
-        "img": "",
+        "img": "/public/img/ecommerce.png",
         "description": "Backend only e-commerce backend app made with express, mySQL and sequalize. This projects goals were to successfully connect to the mySQL database, use sequalize for CRUD and manipulate data with insomnia.",
         "github": "https://github.com/samamiraa/E-Commerce-Back-End",
         "url": "https://drive.google.com/file/d/1TTaz38ocVsdG9P2cICK7rMre0T0ETq33/view/"
@@ -42,7 +42,7 @@
     {
         "id": "6",
         "title": "Employee Tracker",
-        "img": "",
+        "img": "/public/img/employeetracker.png",
         "description": "Employee tracker created with javascript, node and mySQL. The walkthrough video includes the demonstration of how the application server is started and ran through the terminal.",
         "github": "https://github.com/samamiraa/Employee-Tracker",
         "url": "https://drive.google.com/file/d/1_nXz3fz0HSW-hoqIAv-kNhLfSFv0drCm/view?usp=sharing"
@@ -50,7 +50,7 @@
     {
         "id": "7",
         "title": "Note Taker",
-        "img": "",
+        "img": "/public/img/notetaker.png",
         "description": "Note taker created with express.js where you can add, save, review and delete notes. This project included starter code with frontend that was 90% finished, the goal here was to successfully create, update and delete the note data.",
         "github": "https://github.com/samamiraa/Note-Taker",
         "url": "https://note-taker-11kd.onrender.com"
@@ -58,7 +58,7 @@
     {
         "id": "8",
         "title": "Logo Generator",
-        "img": "",
+        "img": "/public/img/logogenerator.png",
         "description": "Logo generator using javascript and node.js. The main focus for this project was to implement and understand object oriented programming by utilising classes and constructors. Also includes testing with jest.",
         "github": "https://github.com/samamiraa/10-Logo-Generator",
         "url": "https://drive.google.com/file/d/1-Rwmp5lYBxv7xe2mqTj4Lsi8_DgRB3Hj/view"
@@ -66,7 +66,7 @@
     {
         "id": "9",
         "title": "ReadME Generator",
-        "img": "",
+        "img": "/public/img/readmegen.png",
         "description": "Readme generator using javascript and node.js. Proffessional readme created in terminal by selecting inputting data which then creates a markdown file right in your project folder. ",
         "github": "https://github.com/samamiraa/09-README",
         "url": "https://drive.google.com/file/d/1bN1hEBtkCcMN7fFUIiABqjv1QEaSL48Q/view"
@@ -74,7 +74,7 @@
     {
         "id": "10",
         "title": "Weather Dashboard",
-        "img": "",
+        "img": "/public/img/weatherdashboard.png",
         "description": "Weather dashboard created with javascript, jquery, css, html and bootstrap. Uses Openweather API to get current weather data for multiple cities.",
         "github": "https://github.com/samamiraa/06-Weather-Dashboard",
         "url": "https://samamiraa.github.io/06-Weather-Dashboard/"
@@ -82,7 +82,7 @@
     {
         "id": "11",
         "title": "Voice to Recipe",
-        "img": "",
+        "img": "/public/img/voicetorecipe.png",
         "description": "In this collaborative project, we built a speech to text recipe search that uses jacascript, jquery, two different APIs (wit.ai & spoonacular)",
         "github": "https://github.com/samamiraa/voice-recipe-search-system",
         "url": "https://samamiraa.github.io/voice-recipe-search-system/"
@@ -90,7 +90,7 @@
     {
         "id": "12",
         "title": "Day Scheduler",
-        "img": "",
+        "img": "/public/img/workdayscheduler.png",
         "description": "Day schedular created with HTML, Javascript and CSS. This project included starter code, so the main focus was to implement logic to make it functional.",
         "github": "https://github.com/samamiraa/05-Work-Day-Scheduler",
         "url": "https://samamiraa.github.io/05-Work-Day-Scheduler/"
@@ -98,7 +98,7 @@
     {
         "id": "13",
         "title": "Code Quiz",
-        "img": "",
+        "img": "/public/img/codequiz.png",
         "description": "Interactive code quiz created with HTML, Javascript and CSS. 10 multiple choice questions in 1 minute.",
         "github": "https://github.com/samamiraa/04-Code-Quiz",
         "url": "https://samamiraa.github.io/04-Code-Quiz/"
@@ -106,7 +106,7 @@
     {
         "id": "14",
         "title": "Password Generator",
-        "img": "",
+        "img": "/public/img/pwgen.png",
         "description": "Random password generator created with HTML, Javascript and CSS. This project included starter code, so the main focus was to implement logic to make it functional.",
         "github": "https://github.com/samamiraa/03-Password-Generator",
         "url": "https://samamiraa.github.io/03-Password-Generator"
@@ -114,7 +114,7 @@
     {
         "id": "15",
         "title": "First Portfolio",
-        "img": "",
+        "img": "/public/img/firstport.png",
         "description": "First portfolio created using HTML and CSS. The focus of the project was using advanced css to style.",
         "github": "https://github.com/samamiraa/02-Samamiraa-Portfolio",
         "url": "https://samamiraa.github.io/02-Samamiraa-Portfolio/"
@@ -122,7 +122,7 @@
     {
         "id": "16",
         "title": "CSS cheatsheet",
-        "img": "",
+        "img": "/public/img/csscheatsheet.png",
         "description": "CSS Cheatsheet created with HTML and CSS. The focus of the project was using advanced css to style.",
         "github": "https://github.com/samamiraa/02-Adv-CSS-Mini-Project",
         "url": "https://samamiraa.github.io/02-Adv-CSS-Mini-Project/"
@@ -130,7 +130,7 @@
     {
         "id": "17",
         "title": "Code Refactor",
-        "img": "",
+        "img": "/public/img/coderefactor.png",
         "description": "This project included starter code. The main focus was to practice refactoring to maintain clean and organized code.",
         "github": "https://github.com/samamiraa/01-Code-Refactor",
         "url": "https://samamiraa.github.io/01-Code-Refactor/"
@@ -138,7 +138,7 @@
     {
         "id": "18",
         "title": "Landing Page",
-        "img": "",
+        "img": "/public/img/landingpage.png",
         "description": "Landing Page created with HTML and CSS. The focus of the project was using basic HTML and basic css to style.",
         "github": "https://github.com/samamiraa/01-Mini-Project",
         "url": "https://samamiraa.github.io/01-Mini-Project/"
