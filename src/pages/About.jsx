@@ -1,7 +1,7 @@
 import Avatar from '@mui/material/Avatar';
 import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
-import selfie from '../../public/img/selfie.jpg'
+import selfie from '/img/selfie.jpg'
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
