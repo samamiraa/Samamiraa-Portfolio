@@ -3,6 +3,8 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import Alert from '@mui/material/Alert';
+import ContactMailIcon from '@mui/icons-material/ContactMail';
+import ContactPhoneIcon from '@mui/icons-material/ContactPhone';
 
 import { useState } from 'react';
 
@@ -63,6 +65,14 @@ export default function Contact() {
             <div className='contactForm'>
                 <Typography variant='h5' sx={{ color: '#90caf9' }} align='center'>
                     Want to connect?
+                </Typography>
+                <ContactMailIcon/>
+                <Typography variant='body1' color='textSecondary' align='center'>
+                    samanthaamiraallen@gmail.com
+                </Typography>
+                <ContactPhoneIcon/>
+                <Typography variant='body1' color='textSecondary' align='center' gutterBottom>
+                    604-349-8535
                 </Typography>
                  {showAlertName && (
                     <Alert variant="outlined" severity="info">
