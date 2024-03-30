@@ -20,7 +20,7 @@ function Portfolio() {
                     <Grid container spacing={4}>
                         {projects.map((project) => (
                             <Grid item key={project.id} xs={12} sm={6} md={4}>
-                                <Card className='card' sx={{ maxWidth: 300 }}>
+                                <Card className='card' variant='outlined' sx={{ maxWidth: 300 }}>
                                     <CardMedia
                                         className='cardMedia'
                                         sx={{ height: 100 }}
