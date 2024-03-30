@@ -17,14 +17,13 @@ function Footer() {
         <footer className='marginTopFooter'>
             <Box sx={{ pb: 7 }} ref={ref}>
                 <CssBaseline />
-                <Paper sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }} elevation={3}>
+                <Paper elevation={3}>
                     <BottomNavigation
                         sx={{
                             bgcolor: 'rgba(255, 255, 255, 0.0)',
                             justifyContent: 'center',
                             alignItems: 'center'
                         }}
-                        showLabels
                         value={value}
                         onChange={(event, newValue) => {
                             setValue(newValue);

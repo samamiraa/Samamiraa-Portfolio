@@ -2,6 +2,8 @@ import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import { Table, TableBody, TableCell, TableContainer, TableRow, Paper } from '@mui/material';
+import { skills } from '../utils/techSkills.json'
 
 function Resume() {
     return (
@@ -10,9 +12,17 @@ function Resume() {
                 <Typography variant="h5" sx={{ color: '#90caf9' }} gutterBottom>
                     Technical Skills
                 </Typography>
-                <Typography variant="body1" align='center' gutterBottom sx={{ color: 'textSecondary' }}>
-                HTML | CSS | JAVASCRIPT | JQUERY | BOOTSTRAP | NODE.JS | OOP  EXPRESS.JS | SQL | ORM | MVC | NOSQL | PWA | REACT | MERN STATE | APIS
-                </Typography>
+                <TableContainer component={Paper}>
+                    <Table>
+                        <TableBody>
+                            <TableRow>
+                                {skills.map((skill, index) => (
+                                    <TableCell key={index}>{skill}</TableCell>
+                                ))}
+                            </TableRow>
+                        </TableBody>
+                    </Table>
+                </TableContainer>
                 <Button
                     variant="outlined"
                     startIcon={<FileDownloadIcon />}

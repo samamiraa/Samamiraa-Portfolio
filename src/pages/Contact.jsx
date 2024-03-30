@@ -63,14 +63,11 @@ export default function Contact() {
             autoComplete="off"
         >
             <div className='contactForm'>
-                <Typography variant='h5' sx={{ color: '#90caf9' }} align='center'>
-                    Want to connect?
-                </Typography>
-                <ContactMailIcon/>
+                <ContactMailIcon sx={{ color: '#90caf9' }}/>
                 <Typography variant='body1' color='textSecondary' align='center'>
                     samanthaamiraallen@gmail.com
                 </Typography>
-                <ContactPhoneIcon/>
+                <ContactPhoneIcon sx={{ color: '#90caf9' }}/>
                 <Typography variant='body1' color='textSecondary' align='center' gutterBottom>
                     604-349-8535
                 </Typography>
@@ -120,7 +117,7 @@ export default function Contact() {
                     onChange={(event) => setMessage(event.target.value)}
                     onMouseOut={() => handleEmptyMessage(message)}
                 />
-                <Button sx={{ marginLeft: '135px' }} variant='outlined'>Submit</Button>
+                <Button sx={{ marginLeft: '135px'}} variant='outlined'>Submit</Button>
             </div>
         </Box>
     );

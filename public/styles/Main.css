@@ -36,5 +36,6 @@ body {
 }
 
 .marginTopFooter {
-    margin-top: 6000px;
+    margin-top: 20vh;
+    height: 20vh;
 }
