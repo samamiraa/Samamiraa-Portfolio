@@ -10,13 +10,12 @@ function About() {
         <div className='aboutJsx'>
             <CssBaseline />
             <Container
-                className='aboutJsx'
                 maxWidth="sm"
                 sx={{
                     display: 'flex',
                     justifyContent: 'space-evenly',
                     alignItems: 'center',
-                    marginTop: '25px'
+                    marginTop: '100px'
                 }}
             >
                 <Avatar

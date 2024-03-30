@@ -99,7 +99,7 @@ export default function Contact() {
                     value={email}
                     onChange={handleEmailValidation}
                     onMouseOut={() => handleEmptyEmail(email)}
-                    error={emailError}
+                    error={!!emailError}
                     helperText={emailError ? 'Invalid Email' : '' }
                 />
                  {showAlertMessage && (

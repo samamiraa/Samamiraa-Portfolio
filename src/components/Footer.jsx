@@ -15,9 +15,9 @@ function Footer() {
 
     return (
         <footer className='marginTopFooter'>
-            <Box sx={{ pb: 7 }} ref={ref}>
+            <Box ref={ref}>
                 <CssBaseline />
-                <Paper elevation={3}>
+                <Paper>
                     <BottomNavigation
                         sx={{
                             bgcolor: 'rgba(255, 255, 255, 0.0)',

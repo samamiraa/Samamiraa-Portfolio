@@ -1,5 +1,5 @@
 body {
-    height: 100vh;
+    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -8,6 +8,7 @@ body {
 .appJsx,
 .aboutJsx {
     height: 100%;
+    min-height: 100vh;
 }
 
 .card {
@@ -36,7 +37,6 @@ body {
     margin-top: 100px;
 }
 
-.marginTopFooter {
+/* .marginTopFooter {
     margin-top: 20vh;
-    height: 20vh;
-}
+} */

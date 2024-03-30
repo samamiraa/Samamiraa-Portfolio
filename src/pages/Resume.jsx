@@ -7,7 +7,7 @@ import { skills } from '../utils/techSkills.json'
 
 function Resume() {
     return (
-        <div className='resumeBox'>
+        <div className='resumeBox appJsx'>
             <Box sx={{ width: '100%', maxWidth: 500 }} className='marginTop resumeBox'>
                 <Typography variant="h5" sx={{ color: '#90caf9' }} gutterBottom>
                     Technical Skills
