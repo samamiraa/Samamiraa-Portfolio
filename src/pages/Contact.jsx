@@ -117,7 +117,7 @@ export default function Contact() {
                     onChange={(event) => setMessage(event.target.value)}
                     onMouseOut={() => handleEmptyMessage(message)}
                 />
-                <Button sx={{ marginLeft: '135px'}} variant='outlined'>Submit</Button>
+                <Button sx={{ marginLeft: '135px', marginBottom: '20px' }} variant='outlined'>Submit</Button>
             </div>
         </Box>
     );
