@@ -1,15 +1,11 @@
 # Portfolio
 
 Live URL 👇🏼<br>
+https://main--wondrous-twilight-0a7ae5.netlify.app/
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+Portfolio created with React and Material UI. My motivation was seeing the improvement in my first portfolio and this one. This is an important project to build because every developer should have a portfolio. I learned how to use Material UI (of course there is still much more to learn), but it was a good start.
 
 ## Table of Contents 
 
@@ -20,19 +16,43 @@ Provide a short description explaining the what, why, and how of your project. U
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+npm run install<br>
+pm start if running throught localhost, otherwise see deployed application<br>
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+When you first load my portfolio, the default page is the about page<br>
+<br>
+<img width="1200" alt="about page" src="/readmeimg/1 portfolio first load.png"><br>
+<br>
+The navigation bar has 4 links that can take you to the pages 'about', 'portfolio', 'contact', and 'resume'.<br>
+<br>
+<img width="1200" alt="about page" src="/public/img/readmeimg/2aboutnav.png"><br>
+<br>
+<img width="1200" alt="portfolio page" src="/public/img/readmeimg/3portfolionav.png"><br>
+<br>
+<img width="1200" alt="contact page" src="/public/img/readmeimg/4contactnav.png"><br>
+<br>
+<img width="1200" alt="resume page" src="/public/img/readmeimg/8resumenav.png"><br>
+<br>
+Every page has the footer that has 3 icon links to my github, linkedin and twitter<br>
+<br>
+<img width="1200" alt="footer" src="/public/img/readmeimg/9footer.png"><br>
+<br>
+On the contact page if you hover your mouse over an input an alert pops up saying the specific field is required<br>
+<br>
+<img width="1200" alt="contact alert" src="/public/img/readmeimg/5contactinput.png"><br>
+<br>
+When you enter text in the email input, an invalid emaill error shows up and disappears once a valid email is entered<br>
+<br>
+<img width="1200" alt="email error" src="/public/img/readmeimg/6emailerror.png"><br>
+<br>
+<img width="1200" alt="email valid" src="/public/img/readmeimg/7emailvalid.png"><br>
+<br>
 
 ## Credits
+
+I always refer to class activities, but thank you to my tutor Andrew and my colleague Shawn for all of their help.<br>
 
 https://www.youtube.com/watch?v=Xoz31I1FuiY<br>
 https://dev.to/parthgupta118/mouse-events-onmouseout-and-onmouseleave-in-react-1fpd<br>
@@ -41,22 +61,8 @@ https://mui.com/material-ui/react-alert/<br>
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+The MIT License is short and to the point. It lets people do almost anything they want with your project, like making and distributing closed source versions.
 
 ## Tests
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+Download my resume and check out all my links!
