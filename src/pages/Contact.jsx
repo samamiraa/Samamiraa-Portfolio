@@ -62,7 +62,7 @@ export default function Contact() {
             noValidate
             autoComplete="off"
         >
-            <div className='contactForm'>
+            <div className='contactForm appJsx'>
                 <ContactMailIcon sx={{ color: '#90caf9' }}/>
                 <Typography variant='body1' color='textSecondary' align='center'>
                     samanthaamiraallen@gmail.com
