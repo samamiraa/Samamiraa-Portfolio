@@ -37,7 +37,7 @@
         "img": "/img/ecommerce.png",
         "description": "Backend only e-commerce backend app made with express, mySQL and sequalize. This projects goals were to successfully connect to the mySQL database, use sequalize for CRUD and manipulate data with insomnia.",
         "github": "https://github.com/samamiraa/E-Commerce-Back-End",
-        "url": "https://drive.google.com/file/d/1TTaz38ocVsdG9P2cICK7rMre0T0ETq33/view/"
+        "url": "https://drive.google.com/file/d/1TTaz38ocVsdG9P2cICK7rMre0T0ETq33/view"
     },
     {
         "id": "6",

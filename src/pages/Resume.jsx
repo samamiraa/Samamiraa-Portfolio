@@ -26,7 +26,7 @@ function Resume() {
     return (
         <div className='resumeBox appJsx'>
             <Box sx={{ width: '100%', maxWidth: 500 }} className='marginTop resumeBox'>
-                <Typography variant="h5" sx={{ color: '#90caf9' }} gutterBottom>
+                <Typography variant="h5" color='textSecondary' gutterBottom>
                     Technical Skills
                 </Typography>
                 <Box sx={{ flexGrow: 1, maxWidth: 752}}>
@@ -36,7 +36,7 @@ function Resume() {
                                 <List dense={true} sx={{textAlign: 'center'}}>
                                         <ListItem color='textSecondary'>
                                             <ListItemIcon sx={{ marginRight: '5px'}}>
-                                                <HtmlIcon />
+                                                <HtmlIcon sx={{ color: '#90caf9' }}/>
                                             </ListItemIcon>
                                             <ListItemText
                                                 primary='HTML'
@@ -44,7 +44,7 @@ function Resume() {
                                         </ListItem>
                                         <ListItem color='textSecondary'>
                                             <ListItemIcon sx={{ marginRight: '5px'}}>
-                                                <CssIcon />
+                                                <CssIcon sx={{ color: '#90caf9' }}/>
                                             </ListItemIcon>
                                             <ListItemText
                                                 primary='CSS'
@@ -52,7 +52,7 @@ function Resume() {
                                         </ListItem>
                                         <ListItem color='textSecondary'>
                                             <ListItemIcon sx={{ marginRight: '5px'}}>
-                                                <JavascriptIcon />
+                                                <JavascriptIcon sx={{ color: '#90caf9' }}/>
                                             </ListItemIcon>
                                             <ListItemText
                                                 primary='JavaScript'
@@ -60,7 +60,7 @@ function Resume() {
                                         </ListItem>
                                         <ListItem color='textSecondary'>
                                             <ListItemIcon sx={{ marginRight: '5px'}}>
-                                                <CodeIcon />
+                                                <CodeIcon sx={{ color: '#90caf9' }}/>
                                             </ListItemIcon>
                                             <ListItemText
                                                 primary='Jquery'
@@ -68,7 +68,7 @@ function Resume() {
                                         </ListItem>
                                         <ListItem color='textSecondary'>
                                             <ListItemIcon sx={{ marginRight: '5px'}}>
-                                                <CodeIcon />
+                                                <CodeIcon sx={{ color: '#90caf9' }}/>
                                             </ListItemIcon>
                                             <ListItemText
                                                 primary='React'
@@ -82,7 +82,7 @@ function Resume() {
                                 <List dense={true}>
                                         <ListItem color='textSecondary'>
                                             <ListItemIcon sx={{ marginRight: '5px'}}>
-                                                <DataObjectIcon />
+                                                <DataObjectIcon sx={{ color: '#90caf9' }}/>
                                             </ListItemIcon>
                                             <ListItemText
                                                 primary='OOP'
@@ -90,7 +90,7 @@ function Resume() {
                                         </ListItem>
                                         <ListItem color='textSecondary'>
                                             <ListItemIcon sx={{ marginRight: '5px'}}>
-                                                <DataObjectIcon />
+                                                <DataObjectIcon sx={{ color: '#90caf9' }}/>
                                             </ListItemIcon>
                                             <ListItemText
                                                 primary='ORM'
@@ -98,7 +98,7 @@ function Resume() {
                                         </ListItem>
                                         <ListItem color='textSecondary'>
                                             <ListItemIcon sx={{ marginRight: '5px'}}>
-                                                <CodeOffIcon />
+                                                <CodeOffIcon sx={{ color: '#90caf9' }}/>
                                             </ListItemIcon>
                                             <ListItemText
                                                 primary='MVC'
@@ -106,7 +106,7 @@ function Resume() {
                                         </ListItem>
                                         <ListItem color='textSecondary'>
                                             <ListItemIcon sx={{ marginRight: '5px'}}>
-                                                <CodeOffIcon />
+                                                <CodeOffIcon sx={{ color: '#90caf9' }}/>
                                             </ListItemIcon>
                                             <ListItemText
                                                 primary='PWA'
@@ -114,7 +114,7 @@ function Resume() {
                                         </ListItem>
                                         <ListItem color='textSecondary'>
                                             <ListItemIcon sx={{ marginRight: '5px'}}>
-                                                <CodeOffIcon />
+                                                <CodeOffIcon sx={{ color: '#90caf9' }}/>
                                             </ListItemIcon>
                                             <ListItemText
                                                 primary='APIs'
@@ -129,7 +129,7 @@ function Resume() {
                                 <List dense={true}>
                                         <ListItem color='textSecondary'>
                                             <ListItemIcon sx={{ marginRight: '5px'}}>
-                                                <CodeIcon />
+                                                <CodeIcon sx={{ color: '#90caf9' }}/>
                                             </ListItemIcon>
                                             <ListItemText
                                                 primary='Node.js'
@@ -137,7 +137,7 @@ function Resume() {
                                         </ListItem>
                                         <ListItem color='textSecondary'>
                                             <ListItemIcon sx={{ marginRight: '5px'}}>
-                                                <CodeIcon />
+                                                <CodeIcon sx={{ color: '#90caf9' }}/>
                                             </ListItemIcon>
                                             <ListItemText
                                                 primary='Express.js'
@@ -145,7 +145,7 @@ function Resume() {
                                         </ListItem>
                                         <ListItem color='textSecondary'>
                                             <ListItemIcon sx={{ marginRight: '5px'}}>
-                                                <CodeIcon />
+                                                <CodeIcon sx={{ color: '#90caf9' }}/>
                                             </ListItemIcon>
                                             <ListItemText
                                                 primary='MERN'
@@ -153,7 +153,7 @@ function Resume() {
                                         </ListItem>
                                         <ListItem color='textSecondary'>
                                             <ListItemIcon sx={{ marginRight: '5px'}}>
-                                                <CodeIcon />
+                                                <CodeIcon sx={{ color: '#90caf9' }}/>
                                             </ListItemIcon>
                                             <ListItemText
                                                 primary='State'
@@ -167,7 +167,7 @@ function Resume() {
                                 <List dense={true}>
                                         <ListItem color='textSecondary'>
                                             <ListItemIcon sx={{ marginRight: '5px'}}>
-                                                <StyleIcon />
+                                                <StyleIcon sx={{ color: '#90caf9' }}/>
                                             </ListItemIcon>
                                             <ListItemText
                                                 primary='Bootstrap'
@@ -175,7 +175,7 @@ function Resume() {
                                         </ListItem>
                                         <ListItem color='textSecondary'>
                                             <ListItemIcon sx={{ marginRight: '5px'}}>
-                                                <StyleIcon />
+                                                <StyleIcon sx={{ color: '#90caf9' }}/>
                                             </ListItemIcon>
                                             <ListItemText
                                                 primary='Material UI'
@@ -189,7 +189,7 @@ function Resume() {
                                 <List dense={true}>
                                         <ListItem color='textSecondary'>
                                             <ListItemIcon sx={{ marginRight: '5px'}}>
-                                                <StorageIcon />
+                                                <StorageIcon sx={{ color: '#90caf9' }}/>
                                             </ListItemIcon>
                                             <ListItemText
                                                 primary='mySQL'
@@ -197,7 +197,7 @@ function Resume() {
                                         </ListItem>
                                         <ListItem color='textSecondary'>
                                             <ListItemIcon sx={{ marginRight: '5px'}}>
-                                                <StorageIcon />
+                                                <StorageIcon sx={{ color: '#90caf9' }}/>
                                             </ListItemIcon>
                                             <ListItemText
                                                 primary='NoSQL'
@@ -205,7 +205,7 @@ function Resume() {
                                         </ListItem>
                                         <ListItem color='textSecondary'>
                                             <ListItemIcon sx={{ marginRight: '5px'}}>
-                                                <StorageIcon />
+                                                <StorageIcon sx={{ color: '#90caf9' }}/>
                                             </ListItemIcon>
                                             <ListItemText
                                                 primary='GraphQL'

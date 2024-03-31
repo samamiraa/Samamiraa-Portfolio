@@ -54,7 +54,7 @@ export default function Contact() {
 
     return (
         <Box
-            className='marginTop'
+            className='marginTop appJsx'
             component="form"
             sx={{
                 '& .MuiTextField-root': { m: 1, width: '25ch' },
