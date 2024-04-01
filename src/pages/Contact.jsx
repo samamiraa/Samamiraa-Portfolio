@@ -6,6 +6,7 @@ import Alert from '@mui/material/Alert';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
 import ContactPhoneIcon from '@mui/icons-material/ContactPhone';
 
+{/** import useState method */}
 import { useState } from 'react';
 
 export default function Contact() {
@@ -17,6 +18,7 @@ export default function Contact() {
     const [showAlertEmail, setShowAlertEmail] = useState(false);
     const [showAlertMessage, setShowAlertMessage] = useState(false);
 
+    {/** trims whitespace, if no text prompts alert */}
     const handleEmptyName = (value) => {
         if (!value.trim()) {
             setShowAlertName(true);
@@ -41,11 +43,13 @@ export default function Contact() {
         }
     }
 
+    {/** regex for email validation */}
     const emailValidation = (email) => {
         const emailRegEx = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return emailRegEx.test(email);
     }
 
+    {/** validates email, if not valid prompts invalid email */}
     const handleEmailValidation = (event) => {
         const emailVal = event.target.value;
         setEmail(emailVal);
@@ -71,11 +75,13 @@ export default function Contact() {
                 <Typography variant='body1' color='textSecondary' align='center' gutterBottom>
                     604-349-8535
                 </Typography>
+                {/** alert that field is required if no text is entered */}
                  {showAlertName && (
                     <Alert variant="outlined" severity="info">
                         Name is required
                     </Alert>
                 )}
+                {/** targets the change, if mouse leaves input with no text alert appears */}
                 <TextField
                     id="outlined-multiline-flexible"
                     label="Name"
@@ -91,6 +97,7 @@ export default function Contact() {
                         Email is required
                     </Alert>
                 )}
+                {/** when text field changes, prompts email validation */}
                 <TextField
                     id="outlined-textarea"
                     label="Email"

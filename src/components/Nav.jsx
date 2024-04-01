@@ -1,3 +1,4 @@
+{/* imports dependancies from material ui and react router dom */}
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import AppBar from '@mui/material/AppBar';
@@ -16,6 +17,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { Link, useLocation } from 'react-router-dom';
 
+{/* links nav links to respective pages */}
 const drawerWidth = 240;
 const navItems = [
   { text: 'About', to: '/about' },
@@ -33,6 +35,7 @@ function Nav(props) {
     setMobileOpen((prevState) => !prevState);
   };
 
+  {/* drawer for responsiveness to smaller screens for nav bar */}
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 2, color: '#90caf9'  }}>
@@ -40,6 +43,7 @@ function Nav(props) {
       </Typography>
       <Divider />
       <List sx={{ color: '#90caf9'  }}>
+        {/* outlines selected nav link */}
         {navItems.map((item) => (
           <ListItem key={item.text} disablePadding>
             <ListItemButton component={Link} to={item.to} sx={{ textAlign: 'center' }} selected={pathname === item.to}>
@@ -75,6 +79,7 @@ function Nav(props) {
            SAMANTHA ALLEN
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' }}}>
+            {/* outlines selected nav link */}
             {navItems.map((item) => (
               <Button key={item.text} component={Link} to={item.to} variant={pathname === item.to  ? 'outlined' : 'text'}>
                 {item.text}

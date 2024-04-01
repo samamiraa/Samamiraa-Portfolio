@@ -1,3 +1,4 @@
+{/* material ui imports */}
 import Avatar from '@mui/material/Avatar';
 import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
@@ -18,12 +19,14 @@ function About() {
                     marginTop: '100px'
                 }}
             >
+                {/* image of myself */}
                 <Avatar
                     alt="Samantha Allen"
                     src={selfie}
                     sx={{ width: 150, height: 150 }}
                 />
 
+                {/* bio */}
                 <Box sx={{ width: '100%', maxWidth: 500, marginLeft: '35px', marginTop: '25px', color: 'text.secondary' }}>
                     <Typography variant="h5" gutterBottom>
                       Full Stack Web Developer

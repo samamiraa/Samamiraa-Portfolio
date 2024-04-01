@@ -1,9 +1,11 @@
+/* set height for body */
 body {
     height: 100%;
     margin: 0;
     padding: 0;
 }
 
+/* set height for each page relative to body */
 #root,
 .appJsx,
 .aboutJsx {
@@ -11,6 +13,7 @@ body {
     min-height: 100vh;
 }
 
+/* properties for each card in portfolio */
 .card {
     margin: 20px;
     display: flex;
@@ -18,6 +21,7 @@ body {
     height: 90%;
 }
 
+/* padding for photo for projects */
 .cardMedia {
     padding-top: 56.25%;
 }
@@ -26,6 +30,7 @@ body {
     flex-grow: 1;
 }
 
+/* sets flex properties for contact and resume */
 .contactForm,
 .resumeBox {
     display: flex;
@@ -33,6 +38,7 @@ body {
     align-items: center;
 }
 
+/* margin top for each page */
 .marginTop {
     margin-top: 100px;
 }

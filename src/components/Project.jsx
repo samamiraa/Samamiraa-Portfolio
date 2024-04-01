@@ -8,7 +8,7 @@ import { Grid } from '@mui/material';
 import { Link } from 'react-router-dom';
 
 function Project(project) {
-
+    {/** card layout for each project imported to portfolio page where json file is imported in */}
     return (
         <Grid item key={project.id} xs={12} sm={6} md={4}>
             <Card className='card' variant='outlined' sx={{ maxWidth: 300 }}>

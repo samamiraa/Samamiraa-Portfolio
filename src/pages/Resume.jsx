@@ -21,7 +21,7 @@ const Demo = styled('div')(({ theme }) => ({
     backgroundColor: theme.palette.background.paper,
 }));
 
-
+{/** list of technical profeciencies with fully functional resume download button */}
 function Resume() {
     return (
         <div className='resumeBox appJsx'>

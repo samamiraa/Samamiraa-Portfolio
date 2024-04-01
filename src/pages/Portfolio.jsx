@@ -4,6 +4,7 @@ import projects from '../utils/projects.json'
 import { Link } from 'react-router-dom';
 import Project from '../components/Project'
 
+{/** portfolio page, imports in project component, maps through json file of projects */}
 function Portfolio() {
     return (
         <div className="appJsx marginTop" >
