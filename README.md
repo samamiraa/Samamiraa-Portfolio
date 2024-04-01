@@ -23,31 +23,31 @@ pm start if running throught localhost, otherwise see deployed application<br>
 
 When you first load my portfolio, the default page is the about page<br>
 <br>
-<img width="1200" alt="about page" src="/readmeimg/1 portfolio first load.png"><br>
+<img width="1200" alt="about page" src="./public/img/readmeimg/1 portfolio first load.png"><br>
 <br>
 The navigation bar has 4 links that can take you to the pages 'about', 'portfolio', 'contact', and 'resume'.<br>
 <br>
-<img width="1200" alt="about page" src="/public/img/readmeimg/2aboutnav.png"><br>
+<img width="1200" alt="about page" src="./public/img/readmeimg/2aboutnav.png"><br>
 <br>
-<img width="1200" alt="portfolio page" src="/public/img/readmeimg/3portfolionav.png"><br>
+<img width="1200" alt="portfolio page" src="./public/img/readmeimg/3portfolionav.png"><br>
 <br>
-<img width="1200" alt="contact page" src="/public/img/readmeimg/4contactnav.png"><br>
+<img width="1200" alt="contact page" src="./public/img/readmeimg/4contactnav.png"><br>
 <br>
-<img width="1200" alt="resume page" src="/public/img/readmeimg/8resumenav.png"><br>
+<img width="1200" alt="resume page" src="./public/img/readmeimg/8resumenav.png"><br>
 <br>
 Every page has the footer that has 3 icon links to my github, linkedin and twitter<br>
 <br>
-<img width="1200" alt="footer" src="/public/img/readmeimg/9footer.png"><br>
+<img width="1200" alt="footer" src="./public/img/readmeimg/9footer.png"><br>
 <br>
 On the contact page if you hover your mouse over an input an alert pops up saying the specific field is required<br>
 <br>
-<img width="1200" alt="contact alert" src="/public/img/readmeimg/5contactinput.png"><br>
+<img width="1200" alt="contact alert" src="./public/img/readmeimg/5contactinput.png"><br>
 <br>
 When you enter text in the email input, an invalid emaill error shows up and disappears once a valid email is entered<br>
 <br>
-<img width="1200" alt="email error" src="/public/img/readmeimg/6emailerror.png"><br>
+<img width="1200" alt="email error" src="./public/img/readmeimg/6emailerror.png"><br>
 <br>
-<img width="1200" alt="email valid" src="/public/img/readmeimg/7emailvalid.png"><br>
+<img width="1200" alt="email valid" src="./public/img/readmeimg/7emailvalid.png"><br>
 <br>
 
 ## Credits
