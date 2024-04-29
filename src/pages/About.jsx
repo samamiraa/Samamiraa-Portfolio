@@ -32,12 +32,7 @@ function About() {
                       Full Stack Web Developer
                     </Typography>
                     <Typography variant="body1" align='justify' gutterBottom>
-                    An emerging full-stack web developer passionate about crafting engaging 
-                    digital experiences. With a foundation in HTML, CSS, and JavaScript, 
-                    I am eager to delve deeper into front-end frameworks like React and 
-                    back-end technologies such as Node.js. Driven by curiosity and a commitment 
-                    to continuous learning, I am poised to make meaningful 
-                    contributions to the world of web development.
+                    A full-stack web developer passionate about creating engaging digital experiences. With a foundation in HTML, CSS, and JavaScript, I am eager to dive deeper into front-end frameworks like React and back-end technologies such as Node.js. I am commited to continuous learning and I am excited to add new programming languages to my skillset.
                     </Typography>
                 </Box>
             </Container>
