@@ -1,8 +1,7 @@
 # Portfolio
 
 Live URL 👇🏼<br>
-https://main--wondrous-twilight-0a7ae5.netlify.app/
-
+https://samanthaallen.netlify.app/
 ## Description
 
 Portfolio created with React and Material UI. My motivation was seeing the improvement in my first portfolio and this one. This is an important project to build because every developer should have a portfolio. I learned how to use Material UI (of course there is still much more to learn), but it was a good start.
