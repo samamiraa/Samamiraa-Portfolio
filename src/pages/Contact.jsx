@@ -5,9 +5,8 @@ import Button from '@mui/material/Button';
 import Alert from '@mui/material/Alert';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
 import ContactPhoneIcon from '@mui/icons-material/ContactPhone';
-
-{/** import useState method */}
 import { useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
     const [name, setName] = useState('');
@@ -17,8 +16,9 @@ export default function Contact() {
     const [showAlertName, setShowAlertName] = useState(false);
     const [showAlertEmail, setShowAlertEmail] = useState(false);
     const [showAlertMessage, setShowAlertMessage] = useState(false);
+    const [showAlertSubmit, setShowAlertSubmit] = useState(false);
 
-    {/** trims whitespace, if no text prompts alert */}
+    {/** trims whitespace, if no text prompts alert */ }
     const handleEmptyName = (value) => {
         if (!value.trim()) {
             setShowAlertName(true);
@@ -43,17 +43,41 @@ export default function Contact() {
         }
     }
 
-    {/** regex for email validation */}
+    {/** regex for email validation */ }
     const emailValidation = (email) => {
         const emailRegEx = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return emailRegEx.test(email);
     }
 
-    {/** validates email, if not valid prompts invalid email */}
+    {/** validates email, if not valid prompts invalid email */ }
     const handleEmailValidation = (event) => {
         const emailVal = event.target.value;
         setEmail(emailVal);
         setEmailError(!emailValidation(emailVal));
+    }
+
+    const handleSubmit = (e) => {
+        const templateParams = {
+            from_name: name,
+            user_email: email,
+            reply_to: email,
+            message: message
+        }
+        // Send email using EmailJS
+        e.preventDefault();
+        emailjs.send('contact_service', 'contact_form', templateParams, 'DD8La53N89n4JZtlW')
+            .then((response) => {
+                console.log('Email sent successfully:', response);
+            }, (error) => {
+                console.error('Email sending failed:', error);
+            }
+            );
+
+        setName('');
+        setEmail('');
+        setMessage('');
+
+        setShowAlertSubmit(true);
     }
 
     return (
@@ -67,16 +91,21 @@ export default function Contact() {
             autoComplete="off"
         >
             <div className='contactForm appJsx'>
-                <ContactMailIcon sx={{ color: '#90caf9' }}/>
+                {showAlertSubmit && (
+                    <Alert variant="outlined" severity="success">
+                        Contact Request Submitted!
+                    </Alert>
+                )}
+                <ContactMailIcon sx={{ color: '#90caf9' }} />
                 <Typography variant='body1' color='textSecondary' align='center'>
                     samanthaamiraallen@gmail.com
                 </Typography>
-                <ContactPhoneIcon sx={{ color: '#90caf9' }}/>
+                <ContactPhoneIcon sx={{ color: '#90caf9' }} />
                 <Typography variant='body1' color='textSecondary' align='center' gutterBottom>
-                    604-349-8535
+                    +1-604-349-8535
                 </Typography>
                 {/** alert that field is required if no text is entered */}
-                 {showAlertName && (
+                {showAlertName && (
                     <Alert variant="outlined" severity="info">
                         Name is required
                     </Alert>
@@ -107,9 +136,9 @@ export default function Contact() {
                     onChange={handleEmailValidation}
                     onMouseOut={() => handleEmptyEmail(email)}
                     error={!!emailError}
-                    helperText={emailError ? 'Invalid Email' : '' }
+                    helperText={emailError ? 'Invalid Email' : ''}
                 />
-                 {showAlertMessage && (
+                {showAlertMessage && (
                     <Alert variant="outlined" severity="info">
                         Message is required
                     </Alert>
@@ -124,7 +153,7 @@ export default function Contact() {
                     onChange={(event) => setMessage(event.target.value)}
                     onMouseOut={() => handleEmptyMessage(message)}
                 />
-                <Button sx={{ marginLeft: '135px', marginBottom: '20px' }} variant='outlined'>Submit</Button>
+                <Button sx={{ marginLeft: '135px', marginBottom: '20px' }} onClick={handleSubmit} variant='outlined'>Submit</Button>
             </div>
         </Box>
     );
